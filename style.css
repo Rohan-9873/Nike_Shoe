@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(NikeWebimg.png);
+    /* background-position: center; */
+    background-size: cover;
+    font-family:'Barlow Condensed', sans-serif;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    width: 100%;
+    /* background-color: black; */
+}
+.nav .centNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50vw;
+    height: 80%;
+    
+}
+.nav .centNav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    letter-spacing: -.8px;
+}
+
+
+.imgcontainer{
+    margin-left: 40%;
+    width: 50vw;
+    height: 80vh;
+    background-image: url(Nike-Shoe.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.text {
+    position: absolute;
+    width: fit-content;
+    padding: 12vh 0 0 10vw;
+    color: white;
+    font-size: 3vw;
+}
+.text .sub {
+    width:fit-content ;
+    height: fit-content;
+    /* background-color: aliceblue; */
+    margin-bottom: 7vh;
+}
+.text .para{
+    width: 25vw;
+    height: fit-content;
+    /* background-color: aqua; */
+    font-size: 1.2vw;
+    letter-spacing: 0px;
+    line-height: 20px;
+    
+}
+@media (max-width: ) {
+    
+}
